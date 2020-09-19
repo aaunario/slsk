@@ -11,9 +11,13 @@
     "@types/react": "^16.9.49",
     "@types/react-dom": "^16.9.8",
     "react": "^16.13.1",
+    "react-beautiful-dnd": "^13.0.0",
     "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
     "react-scripts": "3.4.3",
-    "typescript": "^3.7.5"
+    "redux": "^4.0.5",
+    "typescript": "^3.7.5",
+    "whitenoise": "0.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,5 +39,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@types/react-redux": "^7.1.9",
+    "redux-devtools-extension": "^2.13.8"
   }
 }
